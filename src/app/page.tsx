@@ -7,10 +7,10 @@ export default function Home() {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 border border-[var(--gold)] flex items-center justify-center">
-                <span className="text-[var(--gold)] text-lg font-light" className="font-display">A</span>
+                <span className="text-[var(--gold)] text-lg font-light font-display">A</span>
               </div>
               <div>
-                <p className="text-xs tracking-[0.3em] text-[var(--gold)]" className="font-display">AOYAMA</p>
+                <p className="text-xs tracking-[0.3em] text-[var(--gold)] font-display">AOYAMA</p>
                 <p className="text-[10px] tracking-[0.2em] text-white/60">REAL ESTATE</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <div className="gold-line mb-8 animate-fade-in" />
-              <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 animate-fade-in-up" className="font-display">
+              <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 animate-fade-in-up font-display">
                 LUXURY REAL ESTATE
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight mb-8 opacity-0 animate-fade-in-up animation-delay-200">
@@ -66,17 +66,17 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-8 mt-12 opacity-0 animate-fade-in-up animation-delay-800">
                 <div>
-                  <p className="text-3xl font-light text-[var(--gold)]" className="font-display">3,200<span className="text-lg">+</span></p>
+                  <p className="text-3xl font-light text-[var(--gold)] font-display">3,200<span className="text-lg">+</span></p>
                   <p className="text-xs text-white/50 tracking-wider">累計取引実績</p>
                 </div>
                 <div className="w-px h-12 bg-white/20" />
                 <div>
-                  <p className="text-3xl font-light text-[var(--gold)]" className="font-display">98.7<span className="text-lg">%</span></p>
+                  <p className="text-3xl font-light text-[var(--gold)] font-display">98.7<span className="text-lg">%</span></p>
                   <p className="text-xs text-white/50 tracking-wider">顧客満足度</p>
                 </div>
                 <div className="w-px h-12 bg-white/20" />
                 <div>
-                  <p className="text-3xl font-light text-[var(--gold)]" className="font-display">24<span className="text-lg">h</span></p>
+                  <p className="text-3xl font-light text-[var(--gold)] font-display">24<span className="text-lg">h</span></p>
                   <p className="text-xs text-white/50 tracking-wider">査定対応</p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function Home() {
       <section className="py-32 relative">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center mb-20">
-            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6" className="font-display">PROBLEM</p>
+            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 font-display">PROBLEM</p>
             <h2 className="text-3xl md:text-4xl font-light mb-8">
               こんなお悩み、<br className="md:hidden" />ありませんか？
             </h2>
@@ -166,7 +166,7 @@ export default function Home() {
       <section id="services" className="py-32 relative">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center mb-20">
-            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6" className="font-display">SOLUTION</p>
+            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 font-display">SOLUTION</p>
             <h2 className="text-3xl md:text-4xl font-light mb-8">
               青山不動産が、<br className="md:hidden" />すべて解決します
             </h2>
@@ -200,7 +200,7 @@ export default function Home() {
               <div key={index} className="group">
                 <div className="luxury-card p-10 rounded-sm h-full flex flex-col">
                   <div className="flex items-start justify-between mb-6">
-                    <span className="text-5xl font-light text-[var(--gold)]/20" className="font-display">{item.number}</span>
+                    <span className="text-5xl font-light text-[var(--gold)]/20 font-display">{item.number}</span>
                     <div className="w-10 h-10 rounded-full border border-[var(--gold)]/30 flex items-center justify-center group-hover:bg-[var(--gold)]/10 transition-colors">
                       <svg className="w-4 h-4 text-[var(--gold)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -229,7 +229,7 @@ export default function Home() {
       <section className="py-32 bg-[var(--navy-dark)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center mb-20">
-            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6" className="font-display">HOW IT WORKS</p>
+            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 font-display">HOW IT WORKS</p>
             <h2 className="text-3xl md:text-4xl font-light mb-8">
               ご成約までの流れ
             </h2>
@@ -246,7 +246,7 @@ export default function Home() {
               <div key={index} className="relative">
                 <div className="text-center">
                   <div className="w-20 h-20 mx-auto mb-6 rounded-full border border-[var(--gold)]/30 flex items-center justify-center bg-[var(--navy-deep)]">
-                    <span className="text-2xl font-light text-[var(--gold)]" className="font-display">{index + 1}</span>
+                    <span className="text-2xl font-light text-[var(--gold)] font-display">{index + 1}</span>
                   </div>
                   <p className="text-[10px] tracking-[0.2em] text-[var(--gold)]/60 mb-2">{item.step}</p>
                   <h3 className="text-lg font-medium mb-3">{item.title}</h3>
@@ -266,7 +266,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16">
             <div>
-              <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6" className="font-display">FEATURED PROPERTIES</p>
+              <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 font-display">FEATURED PROPERTIES</p>
               <h2 className="text-3xl md:text-4xl font-light">
                 厳選物件
               </h2>
@@ -294,7 +294,7 @@ export default function Home() {
                     {property.tag}
                   </span>
                   <div className="absolute bottom-4 left-4 right-4">
-                    <p className="text-2xl font-light" className="font-display">{property.price}</p>
+                    <p className="text-2xl font-light font-display">{property.price}</p>
                   </div>
                 </div>
                 <h3 className="text-lg font-medium mb-2 group-hover:text-[var(--gold)] transition-colors">{property.area}</h3>
@@ -309,7 +309,7 @@ export default function Home() {
       <section className="py-32 bg-[var(--navy-dark)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center mb-20">
-            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6" className="font-display">TESTIMONIALS</p>
+            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 font-display">TESTIMONIALS</p>
             <h2 className="text-3xl md:text-4xl font-light mb-8">
               お客様の声
             </h2>
@@ -355,7 +355,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6" className="font-display">ABOUT US</p>
+              <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 font-display">ABOUT US</p>
               <h2 className="text-3xl md:text-4xl font-light mb-8">
                 青山不動産について
               </h2>
@@ -368,11 +368,11 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <p className="text-3xl font-light text-[var(--gold)] mb-1" className="font-display">15年</p>
+                  <p className="text-3xl font-light text-[var(--gold)] mb-1 font-display">15年</p>
                   <p className="text-sm text-white/50">業界経験</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-light text-[var(--gold)] mb-1" className="font-display">50名+</p>
+                  <p className="text-3xl font-light text-[var(--gold)] mb-1 font-display">50名+</p>
                   <p className="text-sm text-white/50">専門スタッフ</p>
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default function Home() {
               <div className="aspect-square rounded-sm bg-[var(--navy-medium)] flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-24 h-24 mx-auto border border-[var(--gold)]/30 flex items-center justify-center mb-4">
-                    <span className="text-4xl text-[var(--gold)]" className="font-display">A</span>
+                    <span className="text-4xl text-[var(--gold)] font-display">A</span>
                   </div>
                   <p className="text-white/30 text-sm tracking-wider">COMPANY IMAGE</p>
                 </div>
@@ -395,7 +395,7 @@ export default function Home() {
       <section className="py-32 bg-[var(--navy-dark)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
-            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6" className="font-display">FAQ</p>
+            <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 font-display">FAQ</p>
             <h2 className="text-3xl md:text-4xl font-light mb-8">
               よくあるご質問
             </h2>
@@ -428,7 +428,7 @@ export default function Home() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-[var(--gold)]/5 blur-3xl" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-12 text-center">
-          <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6" className="font-display">CONTACT</p>
+          <p className="text-[var(--gold)] text-sm tracking-[0.3em] mb-6 font-display">CONTACT</p>
           <h2 className="text-3xl md:text-5xl font-light mb-8">
             まずは無料相談から
           </h2>
@@ -463,10 +463,10 @@ export default function Home() {
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 border border-[var(--gold)] flex items-center justify-center">
-                  <span className="text-[var(--gold)] text-lg font-light" className="font-display">A</span>
+                  <span className="text-[var(--gold)] text-lg font-light font-display">A</span>
                 </div>
                 <div>
-                  <p className="text-xs tracking-[0.3em] text-[var(--gold)]" className="font-display">AOYAMA</p>
+                  <p className="text-xs tracking-[0.3em] text-[var(--gold)] font-display">AOYAMA</p>
                   <p className="text-[10px] tracking-[0.2em] text-white/60">REAL ESTATE</p>
                 </div>
               </div>
